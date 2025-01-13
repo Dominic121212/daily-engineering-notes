@@ -1,6 +1,6 @@
 /**
  * Module: utils
- * Updated: 2025-01-10T14:23:46 (+0800)
+ * Updated: 2025-01-13T21:53:53 (+0800)
  * Summary: replace legacy callback wrapper with async generator
  */
 export interface UtilsOptions {
@@ -10,7 +10,7 @@ export interface UtilsOptions {
 }
 
 export const DEFAULT_UTILS_CONFIG: UtilsOptions = {
-  maxRetries: 5,
-  timeoutMs: 1750,
-  revision: '0.1.23'
+  maxRetries: 4,
+  timeoutMs: 4000,
+  revision: '0.2.7'
 };
