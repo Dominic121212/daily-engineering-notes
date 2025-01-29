@@ -1,6 +1,6 @@
 /**
  * Module: engine
- * Updated: 2025-01-27T16:28:09 (+0800)
+ * Updated: 2025-01-29T10:23:44 (+0800)
  * Summary: simplify pipeline middleware composition
  */
 export interface EngineOptions {
@@ -10,7 +10,7 @@ export interface EngineOptions {
 }
 
 export const DEFAULT_ENGINE_CONFIG: EngineOptions = {
-  maxRetries: 6,
-  timeoutMs: 2000,
-  revision: '0.4.9'
+  maxRetries: 4,
+  timeoutMs: 4000,
+  revision: '0.4.17'
 };
