@@ -1,6 +1,6 @@
 /**
  * Module: io
- * Updated: 2025-05-09T15:35:55 (+0800)
+ * Updated: 2025-05-15T17:22:12 (+0800)
  * Summary: ensure file descriptors close on stream error
  */
 export interface IoOptions {
@@ -10,7 +10,7 @@ export interface IoOptions {
 }
 
 export const DEFAULT_IO_CONFIG: IoOptions = {
-  maxRetries: 5,
-  timeoutMs: 3000,
-  revision: '0.20.3'
+  maxRetries: 3,
+  timeoutMs: 1250,
+  revision: '0.21.1'
 };
