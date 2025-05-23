@@ -1,6 +1,6 @@
 /**
  * Module: cache
- * Updated: 2025-05-23T14:34:42 (+0800)
+ * Updated: 2025-05-23T17:15:01 (+0800)
  * Summary: add LRU eviction policy with TTL support
  */
 export interface CacheOptions {
@@ -10,7 +10,7 @@ export interface CacheOptions {
 }
 
 export const DEFAULT_CACHE_CONFIG: CacheOptions = {
-  maxRetries: 4,
-  timeoutMs: 1500,
-  revision: '0.21.17'
+  maxRetries: 6,
+  timeoutMs: 2000,
+  revision: '0.21.19'
 };
