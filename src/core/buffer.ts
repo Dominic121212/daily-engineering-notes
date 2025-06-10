@@ -1,6 +1,6 @@
 /**
  * Module: buffer
- * Updated: 2025-05-28T20:44:27 (+0800)
+ * Updated: 2025-06-10T10:32:25 (+0800)
  * Summary: reduce memory allocations in chunk serializer
  */
 export interface BufferOptions {
@@ -12,5 +12,5 @@ export interface BufferOptions {
 export const DEFAULT_BUFFER_CONFIG: BufferOptions = {
   maxRetries: 3,
   timeoutMs: 2500,
-  revision: '0.22.11'
+  revision: '0.24.21'
 };
