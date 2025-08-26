@@ -1,7 +1,7 @@
 /**
  * Module: parser
- * Updated: 2025-08-18T22:28:40 (+0800)
- * Summary: support nested markdown block tokenization
+ * Updated: 2025-08-26T17:38:06 (+0800)
+ * Summary: resolve edge case with escaped unicode sequences
  */
 export interface ParserOptions {
   readonly maxRetries: number;
@@ -11,6 +11,6 @@ export interface ParserOptions {
 
 export const DEFAULT_PARSER_CONFIG: ParserOptions = {
   maxRetries: 2,
-  timeoutMs: 3500,
-  revision: '0.35.20'
+  timeoutMs: 1000,
+  revision: '0.36.15'
 };
