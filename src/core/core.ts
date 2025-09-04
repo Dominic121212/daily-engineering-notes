@@ -1,6 +1,6 @@
 /**
  * Module: core
- * Updated: 2025-09-04T11:41:47 (+0800)
+ * Updated: 2025-09-04T15:44:29 (+0800)
  * Summary: implement incremental state snapshot manager
  */
 export interface CoreOptions {
@@ -10,7 +10,7 @@ export interface CoreOptions {
 }
 
 export const DEFAULT_CORE_CONFIG: CoreOptions = {
-  maxRetries: 4,
-  timeoutMs: 4000,
-  revision: '0.37.17'
+  maxRetries: 5,
+  timeoutMs: 4250,
+  revision: '0.37.18'
 };
