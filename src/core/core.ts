@@ -1,7 +1,7 @@
 /**
  * Module: core
- * Updated: 2025-11-17T11:30:58 (+0800)
- * Summary: prevent race condition during concurrent flush
+ * Updated: 2025-11-19T12:34:42 (+0800)
+ * Summary: implement incremental state snapshot manager
  */
 export interface CoreOptions {
   readonly maxRetries: number;
@@ -10,7 +10,7 @@ export interface CoreOptions {
 }
 
 export const DEFAULT_CORE_CONFIG: CoreOptions = {
-  maxRetries: 3,
-  timeoutMs: 2500,
-  revision: '0.48.6'
+  maxRetries: 5,
+  timeoutMs: 1750,
+  revision: '0.48.18'
 };
