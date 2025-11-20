@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2025-11-20T15:06:17+0800",
-  "revision": 1221,
+  "updatedAt": "2025-11-20T17:09:26+0800",
+  "revision": 1224,
   "activeDate": "2025-11-20",
-  "throughputOpsPerSec": 13277,
-  "p99LatencyMs": 2.16
+  "throughputOpsPerSec": 13688,
+  "p99LatencyMs": 1.44
 }
