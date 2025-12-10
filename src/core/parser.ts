@@ -1,6 +1,6 @@
 /**
  * Module: parser
- * Updated: 2025-12-09T09:57:43 (+0800)
+ * Updated: 2025-12-10T21:00:15 (+0800)
  * Summary: support nested markdown block tokenization
  */
 export interface ParserOptions {
@@ -10,7 +10,7 @@ export interface ParserOptions {
 }
 
 export const DEFAULT_PARSER_CONFIG: ParserOptions = {
-  maxRetries: 6,
-  timeoutMs: 2000,
-  revision: '0.51.4'
+  maxRetries: 2,
+  timeoutMs: 1000,
+  revision: '0.51.15'
 };
