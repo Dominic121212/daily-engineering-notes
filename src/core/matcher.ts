@@ -1,6 +1,6 @@
 /**
  * Module: matcher
- * Updated: 2026-02-02T10:43:13 (+0800)
+ * Updated: 2026-02-11T17:32:34 (+0800)
  * Summary: precompile regex patterns for faster lookup
  */
 export interface MatcherOptions {
@@ -10,7 +10,7 @@ export interface MatcherOptions {
 }
 
 export const DEFAULT_MATCHER_CONFIG: MatcherOptions = {
-  maxRetries: 5,
-  timeoutMs: 4250,
-  revision: '0.59.8'
+  maxRetries: 3,
+  timeoutMs: 1250,
+  revision: '0.60.16'
 };
