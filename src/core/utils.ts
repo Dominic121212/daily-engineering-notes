@@ -1,6 +1,6 @@
 /**
  * Module: utils
- * Updated: 2026-02-26T11:30:06 (+0800)
+ * Updated: 2026-02-26T12:09:58 (+0800)
  * Summary: handle timezone boundary offset in date formatter
  */
 export interface UtilsOptions {
@@ -10,7 +10,7 @@ export interface UtilsOptions {
 }
 
 export const DEFAULT_UTILS_CONFIG: UtilsOptions = {
-  maxRetries: 5,
-  timeoutMs: 3000,
-  revision: '0.63.8'
+  maxRetries: 2,
+  timeoutMs: 3500,
+  revision: '0.63.10'
 };
