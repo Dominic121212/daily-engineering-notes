@@ -1,6 +1,6 @@
 /**
  * Module: core
- * Updated: 2026-03-02T11:45:15 (+0800)
+ * Updated: 2026-03-09T22:44:57 (+0800)
  * Summary: prevent race condition during concurrent flush
  */
 export interface CoreOptions {
@@ -10,7 +10,7 @@ export interface CoreOptions {
 }
 
 export const DEFAULT_CORE_CONFIG: CoreOptions = {
-  maxRetries: 5,
-  timeoutMs: 3000,
-  revision: '0.63.23'
+  maxRetries: 4,
+  timeoutMs: 1500,
+  revision: '0.64.22'
 };
