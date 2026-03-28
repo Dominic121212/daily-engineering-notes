@@ -1,7 +1,7 @@
 /**
  * Module: utils
- * Updated: 2026-03-25T22:26:54 (+0800)
- * Summary: handle timezone boundary offset in date formatter
+ * Updated: 2026-03-28T13:28:03 (+0800)
+ * Summary: replace legacy callback wrapper with async generator
  */
 export interface UtilsOptions {
   readonly maxRetries: number;
@@ -11,6 +11,6 @@ export interface UtilsOptions {
 
 export const DEFAULT_UTILS_CONFIG: UtilsOptions = {
   maxRetries: 6,
-  timeoutMs: 2000,
-  revision: '0.67.24'
+  timeoutMs: 4500,
+  revision: '0.68.9'
 };
