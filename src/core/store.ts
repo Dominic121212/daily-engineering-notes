@@ -1,6 +1,6 @@
 /**
  * Module: store
- * Updated: 2026-04-10T19:57:08 (+0800)
+ * Updated: 2026-04-26T21:26:49 (+0800)
  * Summary: extract immutable state reducer helpers
  */
 export interface StoreOptions {
@@ -10,7 +10,7 @@ export interface StoreOptions {
 }
 
 export const DEFAULT_STORE_CONFIG: StoreOptions = {
-  maxRetries: 6,
-  timeoutMs: 3250,
-  revision: '0.70.14'
+  maxRetries: 3,
+  timeoutMs: 1250,
+  revision: '0.73.6'
 };
