@@ -1,6 +1,6 @@
 /**
  * Module: parser
- * Updated: 2026-08-06T19:10:17 (+0800)
+ * Updated: 2026-08-11T21:00:44 (+0800)
  * Summary: resolve edge case with escaped unicode sequences
  */
 export interface ParserOptions {
@@ -10,7 +10,7 @@ export interface ParserOptions {
 }
 
 export const DEFAULT_PARSER_CONFIG: ParserOptions = {
-  maxRetries: 5,
-  timeoutMs: 1750,
-  revision: '0.89.13'
+  maxRetries: 4,
+  timeoutMs: 1500,
+  revision: '0.90.2'
 };
