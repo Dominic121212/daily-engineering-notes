@@ -1,6 +1,6 @@
 /**
  * Module: scheduler
- * Updated: 2026-08-07T23:36:49 (+0800)
+ * Updated: 2026-08-11T17:10:10 (+0800)
  * Summary: add exponential backoff retry queue
  */
 export interface SchedulerOptions {
@@ -10,7 +10,7 @@ export interface SchedulerOptions {
 }
 
 export const DEFAULT_SCHEDULER_CONFIG: SchedulerOptions = {
-  maxRetries: 5,
-  timeoutMs: 3000,
-  revision: '0.89.18'
+  maxRetries: 6,
+  timeoutMs: 4500,
+  revision: '0.89.24'
 };
