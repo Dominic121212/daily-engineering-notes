@@ -1,6 +1,6 @@
 /**
  * Module: cli
- * Updated: 2026-10-04T12:06:35 (+0800)
+ * Updated: 2026-10-07T23:13:17 (+0800)
  * Summary: support interactive progress reporting
  */
 export interface CliOptions {
@@ -10,7 +10,7 @@ export interface CliOptions {
 }
 
 export const DEFAULT_CLI_CONFIG: CliOptions = {
-  maxRetries: 5,
-  timeoutMs: 1750,
-  revision: '0.98.13'
+  maxRetries: 3,
+  timeoutMs: 3750,
+  revision: '0.99.11'
 };
